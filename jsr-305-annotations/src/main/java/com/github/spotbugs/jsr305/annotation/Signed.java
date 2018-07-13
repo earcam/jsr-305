@@ -1,14 +1,19 @@
+package com.github.spotbugs.jsr305.annotation;
+
 import java.lang.annotation.Documented;
-import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-import com.github.spotbugs.jsr305.annotation.MatchesPattern;
 import com.github.spotbugs.jsr305.annotation.meta.TypeQualifierNickname;
+import com.github.spotbugs.jsr305.annotation.meta.When;
 
+/**
+ * Used to annotate a value of unknown sign.
+ */
 @Documented
 @TypeQualifierNickname
-@MatchesPattern("[0-9]{3}-[0-9]{2}-[0-9]{4}")
+@Nonnegative(when = When.UNKNOWN)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface SocialSecurityNumber {
+public @interface Signed {
+
 }

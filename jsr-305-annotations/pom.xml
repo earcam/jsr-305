@@ -91,7 +91,7 @@
 					<instructions>
 						<Bundle-SymbolicName>org.jsr-305</Bundle-SymbolicName>
 						<Bundle-Name>${project.name}</Bundle-Name>
-						<Export-Package>javax.annotation;javax.annotation.concurrent;javax.annotation.meta</Export-Package>
+						<Export-Package>com.github.spotbugs.jsr305.annotation;com.github.spotbugs.jsr305.annotation.concurrent;com.github.spotbugs.jsr305.annotation.meta</Export-Package>
 					</instructions>
 				</configuration>
 			</plugin>

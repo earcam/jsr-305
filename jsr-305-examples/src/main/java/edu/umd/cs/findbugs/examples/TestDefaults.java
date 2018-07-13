@@ -1,6 +1,6 @@
 package edu.umd.cs.findbugs.examples;
 
-import javax.annotation.meta.When;
+import com.github.spotbugs.jsr305.annotation.meta.When;
 
 import edu.umd.cs.findbugs.DottedClassName;
 import edu.umd.cs.findbugs.SlashedClassName;
