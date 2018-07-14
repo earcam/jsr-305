@@ -1,3 +1,4 @@
+package edu.umd.cs.findbugs.examples;
 public class LuhnVerification {
 
 	static boolean checkNumber(String value) {

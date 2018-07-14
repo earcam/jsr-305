@@ -1,3 +1,4 @@
+package edu.umd.cs.findbugs.examples;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
